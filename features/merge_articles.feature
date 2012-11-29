@@ -6,7 +6,7 @@ Feature: Merge Articles
   Background:
     Given the blog is set up
     And the following articles exist:
-    | title | author | text   | comment |
+    | title | author | body   | comment |
     | Foo   | John   | Hi Foo | yes     |
     | Bar   | Jane   | Hi Bar | no      |
     And I am logged into the admin panel

@@ -6,7 +6,7 @@ Feature: Merge Articles
   Background:
     Given the blog is set up
     And the following articles exist:
-    | title | author | text   |
+    | title | author | body   |
     | Foo   | John   | Hi Foo |
     | Bar   | Jane   | Hi Bar |
 
